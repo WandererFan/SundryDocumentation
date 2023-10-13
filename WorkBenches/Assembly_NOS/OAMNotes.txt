@@ -1,0 +1,80 @@
+AP203 (Application Protocol 203): Describes the 3D-model’s topography, geometry, and configuration management data. 
+
+https://www.govinfo.gov/content/pkg/GOVPUB-C13-6fc146407a35fc7437911436b4312fff/pdf/GOVPUB-C13-6fc146407a35fc7437911436b4312fff.pdf
+
+
+However, little has been done in terms of developing standard representations that specify assembly information and knowledge.
+Rachuri et al, Journal of Computing and Information Science in Engineering MARCH 2006
+
+Object-Oriented Representation of Electro-Mechanical Assemblies Using UML
+US National Institute of Standards and Technology
+
+The component composition of the assembly is modeled using the part-of relationship. An Assembly is decomposed into sub-assemblies and parts. 
+A Part is the lowest level component which cannot be further decomposed. The diagram shows that an assembly or a subassembly is made up of at
+least two parts.
+
+Each assembly component, whether subassembly or part, is made up of one or more features, represented in the model by the OAMFeature class, 
+where OAM refers to Open Assembly Model. The details of the OAMFeature definition are described in the package OAMFeature. The Assembly and
+Part classes are sub-classes of the NIST-CPM Artifact class, inheriting its definition. OAMFeature is a sub-class of the NIST-CPM Feature class.
+
+
+Assembly feature is defined as an element to specify the relationships between a pair of assembled components. For example, a hole and a cylinder
+are typical assembly features, which represent the physical connections between a bearing part and a shaft part.
+
+Assembly Features, which represent a region of a component, that is of interest
+in the assembly context. Assembly features may have (i) a shape-aspect (super
+class) as defined in 10303, and (ii) an assembly-feature-association. The assembly
+feature associations and the assembly features describe the details of the
+component’s associations
+
+An Artifact refers to a product or one of its components. It is the aggregation of Function, Form and Behavior.
+Form is the aggregation of Geometry and Material. In addition, an Artifact has
+attributes of Specification and Feature. Specification refers to the general information
+that contains all the design requirements pertaining to the artifact’s function or form.
+Feature represents any information in the Artifact that is an aggregation of Function
+and Form; purely geometric constructs are not treated as features in the NIST-CPM.
+
+
+ParametricAssemblyConstraint represents the parametric assembly constraints
+of assembly feature associations. It is used to specify explicit geometric
+constraints between artifacts of an assembled product. The parametric assembly
+constraints are intended to control the position and orientation of artifacts in an
+assembly. Parametric assembly constraints are defined in ISO 10303 Part 108
+(under ballot) and a brief description is given in the next section.
+
+
+Assembly as Bill of Materials
+Assembly as Parts List Tree
+
+The BOM data structure is used to represent the assembly aspects of a product structure.
+It includes only one instance of a single product definition for each kind of product that
+participates in the assembly structure. A part list structure is a specific form of a bill-of-
+material that can be represented by a tree (guided by the BOM’s DAG structure). A bill-
+of-material structure may require a more general DAG. The parts list data structure
+individualizes the relationship between lower-level parts of the product structure with
+higher-level assemblies in which they are contained.
+
+
+Bom
+    Assembly1
+        Subassembly1.1
+        Piecepart1.2
+        ...
+    Assembly2
+        SubAssembly2.1
+            SubAssembly2.1.1
+            SubAssembly2.1.2
+            ...
+        
+BomEntry
+    HierarchyPosition
+    CatalogNumber
+    LocalName
+    CADFileURL
+    Count  
+
+Bom
+    Name
+    Id
+    AssemblyFileURL
+    DocumentManagementURL

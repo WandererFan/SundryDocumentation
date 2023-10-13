@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="69cm" height="35cm" viewBox="51 99 1361 692" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="670.766" y="163.017" width="109.291" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="725.412" y="185.948">
+        <tspan x="725.412" y="185.948">Assembly WB</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="52.1902" y="274.606" width="184.006" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="144.193" y="297.538">
+        <tspan x="144.193" y="297.538">Artifact List Management</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="429.522" y="274.606" width="217.029" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="538.036" y="297.538">
+        <tspan x="538.036" y="297.538">Artifact Linking and Alignment</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="194.434" y="387.814" width="227.752" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="308.311" y="410.746">
+        <tspan x="308.311" y="410.746">Import From Component Library</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="603.578" y="391.794" width="152.837" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="679.996" y="414.724">
+        <tspan x="679.996" y="414.724">Artifact Associations</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="603.578" y="478.644" width="142.865" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="675.01" y="501.576">
+        <tspan x="675.01" y="501.576">Assembly Features</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="603.578" y="563.446" width="95.1599" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="651.158" y="586.378">
+        <tspan x="651.158" y="586.378">Constraints</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="603.578" y="659.528" width="155.994" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="681.574" y="682.46">
+        <tspan x="681.574" y="682.46">Artifact Manipulation</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="849.798" y="274.606" width="217.029" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="958.312" y="297.538">
+        <tspan x="958.312" y="297.538">Simulation/Animation/Analysis</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" x="1190.7" y="274.606" width="63.9912" height="38.084" rx="0" ry="0"/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1222.7" y="297.538">
+        <tspan x="1222.7" y="297.538">Export</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="717.956" y="448.096">
+        <tspan x="717.956" y="448.096">This artifact connects to that artifact</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="712.518" y="538.882">
+        <tspan x="712.518" y="538.882">This feature of A mates with this feature of B</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="687.534" y="622.01">
+        <tspan x="687.534" y="622.01">Feature A.1 must be coaxial with Feature B.2</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="718.53" y="722.556">
+        <tspan x="718.53" y="722.556">Mirror, rotate, move, ???</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="996.198" y="344.76">
+        <tspan x="996.198" y="344.76">Kinetic pairs, </tspan>
+        <tspan x="996.198" y="360.795">relative motion.</tspan>
+      </text>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1218.19" y="336.844">
+        <tspan x="1218.19" y="336.844">to Product Data Management,</tspan>
+        <tspan xml:space="preserve" x="1218.19" y="352.879"> Document Production</tspan>
+      </text>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="725.412,201.1 725.412,237.348 144.193,237.348 144.193,263.836 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="144.193,271.352 139.182,261.33 144.193,263.836 149.204,261.33 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="725.412,201.1 725.412,237.852 538.036,237.852 538.036,264.848 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="538.036,272.364 533.024,262.342 538.036,264.848 543.046,262.342 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="725.412,201.1 725.412,237.852 958.312,237.852 958.312,264.848 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="958.312,272.364 953.3,262.342 958.312,264.848 963.322,262.342 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="725.412,201.1 725.412,237.348 1222.7,237.348 1222.7,263.836 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="1222.7,271.352 1217.69,261.33 1222.7,263.836 1227.71,261.33 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="144.193,312.69 144.193,406.856 180.434,406.856 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="187.951,406.856 177.928,411.866 180.434,406.856 177.928,401.844 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="538.036,312.69 538.036,410.836 593.82,410.836 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="601.336,410.836 591.314,415.846 593.82,410.836 591.314,405.824 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="538.036,312.69 538.036,497.686 593.82,497.686 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="601.336,497.686 591.314,502.696 593.82,497.686 591.314,492.674 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="538.036,312.69 538.036,582.488 593.82,582.488 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="601.336,582.488 591.314,587.5 593.82,582.488 591.314,577.478 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" points="538.036,312.69 538.036,678.57 593.82,678.57 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2.00442; stroke: #000000" fill-rule="evenodd" points="601.336,678.57 591.314,683.582 593.82,678.57 591.314,673.56 "/>
+      <text font-size="12.8283" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="670.448" y="111.811">
+        <tspan x="670.448" y="111.811">Assembly WB</tspan>
+        <tspan x="670.448" y="127.846">Functional Decomposition</tspan>
+      </text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="173.188" y="333.5">
+        <tspan x="173.188" y="333.5">Bill of Material</tspan>
+        <tspan x="173.188" y="349.5">Part List Tree</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="56.8102" y="620.507" width="262.25" height="46.9"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="56.8102" y="632.388">
+        <tspan x="56.8102" y="632.388">For the purposes of this diagram,</tspan>
+        <tspan x="56.8102" y="648.388">Artifact is a general term for Assemblies,</tspan>
+        <tspan x="56.8102" y="664.388">sub-Assemblies and Parts.</tspan>
+      </text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="603.576" y="752.435" width="132.512" height="38" rx="0" ry="0"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="669.832" y="775.316">
+        <tspan x="669.832" y="775.316">Constraint Solver</tspan>
+      </text>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="538.036,312.69 538.036,771.435 593.84,771.435 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="601.34,771.435 591.34,776.435 593.84,771.435 591.34,766.435 "/>
+    </g>
+  </g>
+</svg>

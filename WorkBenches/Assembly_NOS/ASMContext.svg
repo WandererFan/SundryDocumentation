@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="30cm" height="19cm" viewBox="196 34 596 369" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="494.959" cy="128.979" rx="55.0411" ry="54.0206"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="494.959" y="132.861">
+        <tspan x="494.959" y="132.861">Assembly WB</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="677.824" y="104" width="98.35" height="54" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="726.999" y="126.881">
+        <tspan x="726.999" y="126.881">Component</tspan>
+        <tspan x="726.999" y="142.881">Design WBs</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="396.018" y="295" width="197.963" height="54" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="494.999" y="317.881">
+        <tspan x="494.999" y="317.881">Product Data Management/</tspan>
+        <tspan x="494.999" y="333.881">Document Management</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="197.4" y="113" width="145.2" height="38" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="135.881">
+        <tspan x="270" y="135.881">Component Library</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="676.863" y1="130.563" x2="560.736" y2="129.552"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="553.236,129.487 563.28,124.574 560.736,129.552 563.193,134.574 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="494.991" y1="284.26" x2="494.973" y2="193.739"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="494.993,291.76 489.991,281.761 494.991,284.26 499.991,281.759 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="494.971,186.239 499.973,196.238 494.973,193.739 489.973,196.24 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="353.337" y1="130.881" x2="429.19" y2="129.862"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="345.838,130.982 355.77,125.848 353.337,130.881 355.904,135.847 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="436.689,129.762 426.757,134.896 429.19,129.862 426.623,124.896 "/>
+    </g>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="51">
+      <tspan x="380" y="51">Assembly Workbench Context</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="176">
+      <tspan x="680" y="176">Part, PartDesign</tspan>
+      <tspan x="680" y="192">Other specialized</tspan>
+      <tspan x="680" y="208">WBs</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="201" y="174">
+      <tspan x="201" y="174">Directories containing</tspan>
+      <tspan x="201" y="190">FCStd files, STEP files,</tspan>
+      <tspan x="201" y="206">etc.</tspan>
+      <tspan x="201" y="222">Online repositories.</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="405" y="368">
+      <tspan x="405" y="368">Text, tables, supplier, price,</tspan>
+      <tspan x="405" y="384">cost, etc information related</tspan>
+      <tspan x="405" y="400">to the assembly.</tspan>
+    </text>
+  </g>
+</svg>
