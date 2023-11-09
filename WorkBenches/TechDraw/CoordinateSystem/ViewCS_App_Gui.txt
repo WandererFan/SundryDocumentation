@@ -1,0 +1,28 @@
+The App Side View CS
+
+The App Side View CS is more or less a conventional OXYZ CS.
+
+    - origin / centering vector:  "the centroid" of the combined shapes of the Source objects projected onto a 2d page.
+    - Z axis: Direction property
+        - points up from the page 
+    - X axis: XDirection property
+        - can rotate View about Z like Rotation
+        - can mirror the View 
+        - v. useful when making a view from another (projection groups, sections, etc)
+    - Rotation about Z: Rotation Property
+        - can rotate View about Z like XDirection
+    - Scale: view.getScale()
+        - getScale sorts out various scale modes
+    - it is possible for the combination of XDirection and Rotation to amplify or dampen the actual rotation of the View
+
+
+The Gui Side View CS
+
+There is a big CS for the page that is used to locate views on the Page.  In the Qt CS the Y axis is positive downwards from the origin.  At some point, a decision was made to use the (X+, Y-), or upper right, quadrant as the drawing surface.  This is the root cause of all the inversion and re-inversion of the Y coordinate that is scattered throughout TechDraw/Gui.  The Z axis exists in the form of stacking, or zValue(). 
+    - X,Y: View.pos()
+    - the Qt CS allows for scaling, rotation, translation, etc
+    - the Rez factor: The QGraphicsScene has a concept of "user units".  Some items are rendered such that a user unit of 1 mm gives blocky results.  To overcome this, we draw everything in units of 0.1 mm  (technically, 1 mm / Rez factor). The Rez methods convert between these units and the 1:1 units used on the App side. 
+
+Each View has it's own internal Qt CS. This is the CS where the actual drawing is performed. See https://doc.qt.io/qt-6/graphicsview.html#the-graphics-view-coordinate-system.
+
+
