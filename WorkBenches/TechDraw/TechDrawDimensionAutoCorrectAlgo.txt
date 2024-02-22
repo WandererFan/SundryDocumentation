@@ -1,0 +1,31 @@
+The dimension reference auto correct algorithm:
+
+ when a dimension is created, the shape of each reference is saved, so in addition
+ to the dimensionedObject + subElement reference, we also keep a Part::TopoShape copy
+ of the reference. 
+
+ when we later use that dimension, we check its references as follows:
+ for each reference:
+    if ref.currentGeometry == ref.savedGeometry:
+        the reference points to the same geometry as before, so we
+        so we consider this to be correct. same geometry, same index case.
+        continue
+    else:
+        search all the source shapes for a subelement with the exact same
+        geometry.  same geometry, different index case.
+        newRef = searchForExactSameGeometry(ref)   geometry matcher
+        if newRef:
+            substitute the reference we just found in place of the old
+            reference
+            replace(ref, newRef)
+        else:
+            we don't have any geometry that is identical to our saved geometry.
+            finding a match now becomes guess work.  we have to find the most
+            similar geometry (with at least some level of same-ness) and use
+            that to rebuild our reference.
+            newRef = searchForMostSimilarGeometry(ref)  geometry guesser
+            if newRef:
+                replace(ref, newRef)
+            else:
+                we can't fix this
+
