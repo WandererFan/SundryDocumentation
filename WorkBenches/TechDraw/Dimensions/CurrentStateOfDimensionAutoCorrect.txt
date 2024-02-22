@@ -1,0 +1,21 @@
+The state of Dimension autocorrect
+
+Control Parameters
+- Mod > TechDraw > Dimensions > UseMatcher  defaults to true.  controls use of GeometryMatcher (exact match)
+- Mod > TechDraw > Dimensions > UseGuesser  defaults to false.  controls use of GeometryGuesser (approximate match)
+
+
+GeometryMatcher
+- the trivial case where our reference geometry has the same shape and index works well
+- matching Dimension References that have receive a new index number, but are otherwise unchanged, works well.
+- the case where a dimension originally pointed to a subelement of a body feature which has now been deleted, works well.  In this case the entire body is scanned for matching geometry. 
+
+GeometryGuesser
+- the guess is currently using a match and score algorithm where a number of characteristics of model geometries are compared and points awarded for each match.
+- if the point total is above a threshold, the reference and modeel geometry are considered to match.
+- the current matching and scoring algorithm is not very robust.  It delivers false positive and false negatives along with the occasional correct answer.
+- GeometryGuesser might benefit from a computer vision type approach for matching. 
+
+
+
+
