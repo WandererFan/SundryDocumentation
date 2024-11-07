@@ -1,0 +1,31 @@
+Assembly Workbench Functional Decomposition
+
+AssemblyWB
+    Artifact List Management (local/partial BOM)
+        Import from Artifact Design
+        Import from Artifact Library
+    Artifact Linking and Alignment
+        Artifact Associations
+            This artifact connects to that artifact
+        Assembly Features
+            This feature of A mates with this feature of B
+        Constraints
+            Feature A.1 must be coaxial with Feature B.2
+        Artifact Manipulation
+            Mirror, rotate, move, ???
+
+    Simulation/Animation/Analysis
+        Kinetic pairs, ...
+
+    Export
+        to Product Data Management, Document Production
+
+Artifact Library Management
+    ACID Artifacts
+
+
+AssemblyWB Context Diagram
+    from ArtifactDesign
+    from/to Product Data Management/Document Management
+    from/to Artifact Library
+    

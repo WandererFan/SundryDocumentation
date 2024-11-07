@@ -1,0 +1,95 @@
+Miscellaneous notes on coordinates
+
+
+Cosmetic Vertex Coordinates
+
+CV's are stored unscaled, unrotated, deRez'd, but inverted (?srIz), so they are in upside down page coordinates.  CosmeticExtension::
+addCosmeticVertex(point) inverts the point at creation.
+    
+On DVP recompute, App/CosmeticExtension::addCosmeticVertexesToGeom adds scaled and rotated versions of all the CVs
+to the GeometryObject's list of vertices (vertexGeom).  
+
+The non-cosmetic vertexes are created from the moved/scaled/rotated source geometry - which is inverted
+in GeometryObject::projectShape before the geometric vertices are created
+
+All vertices (cosmetic, geometric or centre mark) are Rez'd in QGIVP::drawAllVertexes.
+
+CV coordinates are specified in the Ui as unscaled, unrotated, deRezd, !inverted - ie Page Coordinates.
+
+CV coordinates should be inverted before using them in calculations.
+
+DrawViewPartPy::makeCosmeticVertex expects the input point to be unscaled, unrotated, uninverted form 
+(canonical form).
+
+DrawViewPartPy::makeCosmeticVertex3d expects the input point to be in real world coordinates and handles all the
+necesssary centering, scaling and inverting.
+
+
+
+Cosmetic Edge Coordinates
+
+CE's are stored as unscaled, unrotated but inverted geometry.
+
+The TaskCosmeticLine (ui) accepts points as entered.  
+TCL calls 
+    CEx::makeCosmeticVertex(p0, p1) calls 
+        CE::CE(p0, p1) which calls 
+            CosmeticEdge::TopoDS_EdgeFromVectors(p0, p1) which returns an OCC edge for
+            CE::CE(BaseFactory(OccEdge));
+            
+On DVP recompute, App/CosmeticExtension::addCosmeticEdgesToGeom adds scaled and rotated 
+(CE::scaledAndRotatedGeometry(scale, rotDegrees)) versions of each CE to the GeometryObject's list of
+edges.
+
+Edges are drawn by QGIViewPart as stored in the list of edges.  No transformations are done on edge
+geometry.
+
+Edge geometry should be inverted before using it in calculations.
+
+DrawViewPartPyImp::makeCosmeticLine expects input points to be uninverted (+Y up) as the call to addCosmeticEdge
+will invert the points as above.
+
+DrawViewPartPy::makeCosmeticLine3D expects input points to be in real world coordinates and handles all the
+necesssary centering, scaling and inverting.
+
+
+Leader Line Coordinates
+
+The leader feature's X,Y position represents the head of the leader relative to the parent view's origin.
+X & Y in page coordinates (mm, conventional axes).
+Waypoints are stored as unscaled, unrotated, but inverted (?srIz) displacements from the position of the head
+of the leader.
+Prior to v0.22, Waypoints were saved in scene coordinates - inverted and Rez'd (?srIZ).  This made scaling difficult. There
+is an option in ViewProviderLeader to use old style coordinates, but all new leaders or edited old leaders will be stored
+in the new form.
+
+AppTechDrawPy::makeLeader expects the input points to be in paper space coordinates (mm, conventional axes,
+origin at page bottom left) and handles all the necesssary centering, scaling and inverting required.
+
+Leader example
+
+>>> obj.WayPoints
+[Vector (0.0, 0.0, 0.0), Vector (628.2744637136316, -321.11805923141196, 0.0), Vector (1724.264361525189, -321.11805923141196, 0.0)]
+>>> # Gui.Selection.clearSelection()
+
+The first waypoint is X,Y position + a zero displacement,  the rest are displacements from the X,Y position in Gui units (0.1 mm).  
+
+xy is (91.98, 36.82) in App coords (mm) so (919.8, 368.2) in Gui units.
+
+the kink is at xy + (628.27, -321.12) = (1548.07, 47.08)
+the far end is at xy + (1724.26, -321.12) = (2644.06, 47.08)
+
+the points can be scaled and rotated according to the view.
+
+
+
+Qt Angles
+Qt measures angles in the clockwise direction.  Conventional angles are of course anti-clockwise.  To convert
+from a conventional angle A to a Qt angle Q, Q = 360.0 - A.  Similarly, A = 360 - Q.
+
+If you are considering two angles, say for the start and end of an arc, you may also have to reverse the start and
+end points to get an arc running anti-clockwise.  Cosmetic arcs are always anti-clockwise, and the start and end angles
+control which part of the circle is drawn.
+
+When calculating angles from vectors (ex circular arc from center, point0, point1) be aware that a simple angleWithX()
+calculation will deliver the mirrored equivalent of the conventional answer.
